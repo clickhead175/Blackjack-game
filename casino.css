@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    background: green;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    color: black;border: 1px solid black;border-radius: 10px;margin: 20px;
+    box-shadow: 10px 10px 10px black;background: white;width: 350px;height: 400px; 
+}
+
+
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    margin: 20px;
+}
+
+.container .card-dis{
+    text-decoration: underline;
+}
+
+
+.container .sum-of-all{
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.message-display{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    color: red;
+}
+
+
+button{
+    padding: 10px;font-size: large;color: green;background: yellow;border: none;margin: 20px;cursor: pointer;
+}
