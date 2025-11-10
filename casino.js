@@ -5,7 +5,7 @@ let message = "";
 let blackjack = false
 let playeralive = false
 let player = {
-    name:'exomonster',
+    name:'Clickhead',
     chips: 190
 }
 
@@ -72,4 +72,5 @@ function newcard(){
     cards.push(newcard)
     }
     rendergame()   
+
 }
