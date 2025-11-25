@@ -8,8 +8,6 @@ let player = {
     name:'Clickhead',
     chips: 190
 }
-
-
 const messagedis = document.querySelector('.message-display');
 const sumall = document.querySelector('.sum-of-all');
 const container = document.querySelector('.container');
@@ -74,3 +72,4 @@ function newcard(){
     rendergame()   
 
 }
+
