@@ -36,7 +36,6 @@ function startgame(){
     rendergame()
 }
 
-
 function rendergame(){
     sumall.textContent = "Sum:" + " " + sumcard;
     carddis.textContent = "Card: ";
@@ -45,7 +44,6 @@ function rendergame(){
     for (let index = 0; index < cards.length; index++) {
         carddis.textContent += cards[index] + " ";
     }
-
 if(sumcard >= 21){
     message = "You are out of the game"
     messagedis.innerHTML = message
@@ -72,4 +70,5 @@ function newcard(){
     rendergame()   
 
 }
+
 
